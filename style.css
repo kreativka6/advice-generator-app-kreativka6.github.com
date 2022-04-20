@@ -1,0 +1,86 @@
+/* CSS Document */
+
+body{
+  background-color:  hsl(219, 29%, 14%);
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed';
+}
+
+main{
+  background-color:  hsl(217, 19%, 35%);
+  width: 90%;
+  height: 300px;
+  margin: 150px auto;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+}
+
+#title{
+   padding: 40px 10px 0;
+   color: rgb(100, 211, 100);
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 0.2rem;
+   
+   
+}
+
+#text{
+  color: hsl(210, 46%, 95%);
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+
+}
+
+.line{
+  max-width: 100%;
+   margin: 0 auto;
+   display: block;
+}
+
+#box{
+  padding: 10px;
+
+}
+
+#button{
+  position: absolute;
+  bottom: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(100, 211, 100);
+  border: none;
+}
+
+#button:hover{
+  box-shadow: 10px 10px 30px rgba(100, 211, 100, .5), 0 0 20px rgba(100, 211, 100, .4), 0 0 40px rgba(100, 211, 100, .4);
+}
+
+ .attribution { 
+ font-size: 11px; 
+ text-align: center; 
+ }
+ 
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+ }
+ 
+ @media (min-width:640px){
+ 
+ main{
+  width: 55%;
+ }
+ 
+ .line{
+  width: 100%;
+  margin: 0 auto;
+}
+}
